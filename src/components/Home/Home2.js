@@ -54,7 +54,7 @@ function Home2() {
             <Tilt>
               <img
                 src={myImg}
-                style={{ borderRadius: "50%", height: "70%", width: "70%" }}
+                style={{ borderRadius: "50%", height: "60%", width: "70%" }}
                 className="img-fluid"
                 alt="avatar"
               />

@@ -25,7 +25,7 @@ function Projects() {
               imgPath={project1}
               isBlog={false}
               title="Movie Discovery"
-              description="A movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies. You’ll be consuming data from the TMDB AP"
+              description="A movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies."
               ghLink="https://github.com/TheFelixAjibola/frontend-movielist"
               demoLink="http://frontend-movielist-stage-two.vercel.app"
             />
