@@ -46,10 +46,10 @@ function Projects() {
             <ProjectCard
               imgPath={project3}
               isBlog={false}
-              title="Signet"
-              description="A website built for a stockbroker using bootstrap"
+              title="The Great Provider"
+              description="A website built for a church using HTML and CSS"
               ghLink="#"
-              demoLink="#"
+              demoLink="https://tgp.org.ng"
             />
           </Col>
 
@@ -57,10 +57,10 @@ function Projects() {
             <ProjectCard
               imgPath={project4}
               isBlog={false}
-              title="Capital Trust Brokers"
-              description="A Website built for a stockbroker using bootstrap"
-              ghLink="#"
-              demoLink="#"
+              title="Megaklin Technologies"
+              description="A Website built for a security company using HTML and CSS"
+              ghLink="https://github.com/TheFelixAjibola/megaklintechnologies"
+              demoLink="https://megaklintechnologies.com.ng"
             />
           </Col>
 
