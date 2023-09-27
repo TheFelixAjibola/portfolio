@@ -5,7 +5,12 @@ function Type() {
   return (
     <Typewriter
       options={{
-        strings: ["A Frontend Developer", "A Freelancer", "An IT Enterpreneur"],
+        strings: [
+          "A Frontend Developer.",
+          "An IT Enterpreneur.",
+          "A Freelancer.",
+          "Crafting Seamless User Experiences through Frontend Development.",
+        ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,

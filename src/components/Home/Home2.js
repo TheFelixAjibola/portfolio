@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/passport.jpg";
+import myImg from "../../Assets/me.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { ImPointRight } from "react-icons/im";
 
 function Home2() {
   return (
@@ -16,45 +17,40 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              My Design <span className="purple"> Philosophy </span> 🥸
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Simplicity is my guiding principle! I firmly believe that
+              achieving extraordinary designs can be accomplished through
+              simplicity. In every project, my goal is to emphasize clarity and
+              user-friendliness, meticulously crafting experiences that are both
+              delightful and effortlessly intuitive.
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> HTML, CSS, Javascript and ReactJS. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Management Softwares.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
             </p>
+            <div class="box">
+              <div className="hire">Why Hire Me?</div>
+              <h2>User-Centric Approach​</h2>
+              <p>
+                <ImPointRight /> Crafting designs that speak to your users’
+                hearts.
+              </p>
+              <h2>Problem-Solving Superpowers​</h2>
+              <p>
+                <ImPointRight /> Design challenges? I’m here to solve problems
+                and create intuitive solutions. Bring it on!
+              </p>
+              <h2>Pixel Perfection​</h2>
+              <p>
+                <ImPointRight /> Meticulous attention to detail ensures
+                pixel-perfect designs that dazzle!
+              </p>
+            </div>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img
                 src={myImg}
-                style={{ borderRadius: "50%", height: "60%", width: "70%" }}
+                style={{ borderRadius: "2%", height: "90%", width: "90%" }}
                 className="img-fluid"
                 alt="avatar"
               />
